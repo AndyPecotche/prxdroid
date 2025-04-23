@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.prxdroid"
+    namespace = "com.prxdroid2.prxdroid2"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.prxdroid"
+        applicationId = "com.prxdroid2.prxdroid2"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -82,8 +82,7 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.2.0")
     implementation("androidx.navigation:navigation-compose:2.7.7")
     implementation("com.google.accompanist:accompanist-navigation-animation:0.31.6-rc")
-    implementation(libs.androidx.runtime.livedata)
-    implementation(libs.androidx.appcompat)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

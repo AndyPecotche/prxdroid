@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "prxdroid"
+rootProject.name = "prxdroid2"
 include(":app")
  
